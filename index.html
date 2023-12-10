@@ -6,28 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tip Calculator</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div id="container">
+    <div id="container" class="res">
         <div id="content">
-
-
             <div id="heading">
                 <h1>Tip Calculator</h1>
             </div>
 
             <div class="cointainer_input">
-               <span>Bill Amount:</span><input type="text" id="bill_amount"> 
-               <span>Tip Percentage: </span> <input type="text" id="tip_percentage">
-               <span>Tip Amount:</span><input type="text" id="tip_amount" disabled style="color: #0c0505;">
-               <span>Total bill:</span><input type="text" id="total_bill" disabled style="color: #0c0505;"> 
-
-
-                <button id="btn">Calculate</button>
-
+               <label for="bill_amount">Bill Amount:</label>
+               <input type="text" id="bill_amount"> 
+               <label for="tip_percentage">Tip Percentage:</label>
+               <input type="text" id="tip_percentage">
+               <lable for="tip_amount">Tip Amount:</lable>
+               <input type="text" id="tip_amount" disabled style="color: #0c0505;">
+               <label for="total_bill">Total bill:</label>
+               <input type="text" id="total_bill" disabled style="color: #0c0505;"> 
+               <button id="btn">Calculate</button>
             </div>
 
         </div>
